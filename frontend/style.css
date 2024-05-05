@@ -1,0 +1,25 @@
+/* Basic styles for the To-Do List */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#task-list {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 400px;
+    border: 1px solid #ccc;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.completed {
+    text-decoration: line-through;
+}
